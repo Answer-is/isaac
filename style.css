@@ -1,0 +1,48 @@
+
+body {
+    background-color: white;
+    background-image: url("back.png"), url("back2.png");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+}
+
+h1, h2, h3, p {
+    font-size: 18pt;
+    color: brown;
+    font-family: Times New Roman, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+ul {
+    list-style-type: circle;
+    color: blue;
+    font-size: 14pt;
+}
+
+
+ol {
+    list-style-type: upper-roman;
+    color: red;
+    font-size: 14pt;
+}
+
+
+img {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+
+nav ul {
+    background-color: white;
+    padding: 10px;
+    border: 2px dashed #00FF00;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
